@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <title>Artist</title>
+     <!-- it is connected to two stylesheets -->
+         <link rel="stylesheet" type="text/css" href="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\ArtistCss.css"><!-- this is the main stylesheet -->
+         <!-- desktop first approach is used for the same. -->
+    <link rel="stylesheet" type="text/css" href="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\ArtistResponsive.css">
+      <!-- this is the style sheet with all the media queries -->
+       <!-- this script is just for font awesome fonts -->
+     <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+   </head>
+
+<!-- body -->
+<body>
+  <!-- top navigation bar -->
+  <nav class="navigation-bar">
+    <!-- this div contains the title and logo of the page -->
+    <div class="title-combination">
+      <div class="website-logo">
+        <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\colours.jpeg" />
+      </div>
+      <div class="website-name">
+        <h2>
+          <a href="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Index.html">
+                        Preeti's
+                    </a>
+        </h2>
+        <h4 style="color:magenta;"><a href="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Index.html">
+                      Music Studio
+                  </a></h4>
+      </div>
+    </div>
+    <!-- this div contains the favourites-->
+    <div class="favs">
+      <h2>Favourites</h2>
+    </div>
+    <!-- this div contains search box-->
+    <div class="search-bar">
+      <div>
+        <i class="fas fa-search search-ico"></i>
+      </div>
+      <input type="text" name="search" placeholder="Search">
+      <div>
+        <i class="fas fa-microphone mic-ico"></i>
+      </div>
+    </div>
+    <!-- this div contains bell icon-->
+    <div class="notification-bell">
+      <i class="far fa-bell"></i>
+    </div>
+    <!-- this div contains profile picture-->
+    <div class="profile-pic">
+      <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\WhatsApp Image 2021-01-17 at 18.46.26.jpeg" />
+    </div>
+  </nav>
+  <!-- this is the main center part of the page and it is divided into two sections, namely section 1 and section 2-->
+   <!-- I have separated these sections using the aside tag for each section -->
+   <main>
+     <!-- aside section 1 -->
+     <aside class="aside section-1">
+       <!-- this is for the jumbotron -->
+            <div class="jumbotron">
+                <div class=jumbotron-image>
+                    <!-- there is nothing in this div because all the images and all are added by css -->
+                </div>
+                <!-- jumbotron details -->
+                <div class="jumbotron-detail">
+                    <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+                    <div class="descriptive-part">
+                        <div class="song-name-main">
+                            <h1>ColdPlay</h1>
+                        </div>
+                        <div class="followers">
+                            851 Followers
+                        </div>
+                        <p class="author">British Band</p>
+                        <!-- short description of the current author -->
+                        <p class="desc">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <!-- action part -->
+                    <div class="action-part">
+                        <!-- action buttons -->
+                        <div class="btns">
+                            <button>Play All</button>
+                            <button>Follow</button>
+                        </div>
+                        <p>
+                            247 Tracks | 128 Albums
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- now the playlist part begins -->
+
+              <div class="playlist-items">
+                <!-- playlist-item 1 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            01
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Meri AAshiqui
+                            </h5>
+                            <p>
+                                Jubin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 2 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            02
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi2.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Pal Pal Dil Ke Pass
+                            </h5>
+                            <p>
+                                Sunney Deol
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 3 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            03
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi3.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Tera Masoom Chehra
+                            </h5>
+                            <p>
+                                Junin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 4 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            04
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi4.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Aabaad Barbaad
+                            </h5>
+                            <p>
+                                Junin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 5 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            05
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi5.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Jaan Ban Gaye
+                            </h5>
+                            <p>
+                                Jubin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 6 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            06
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Meri AAshiqui
+                            </h5>
+                            <p>
+                                Jubin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 7 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            07
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi2.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Pal Pal Dil Ke Pass
+                            </h5>
+                            <p>
+                                Sunney Deol
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 8 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            08
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi3.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Tera Masoom Chehra
+                            </h5>
+                            <p>
+                                Junin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 9 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            09
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi4.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Aabaad Barbaad
+                            </h5>
+                            <p>
+                                Junin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist-item 10 -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            10
+                        </div>
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\hindi5.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Jaan Ban Gaye
+                            </h5>
+                            <p>
+                                Jubin Nautiyal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        4:44
+                    </div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- one aside section is complete -->
+        <!-- now the second aside section will start from here -->
+        <!-- the page is responsive. please try reducing the width of the page -->
+        <!-- the aside section will collapse and a "more button will be shown to you." -->
+        <!-- clicking on this more button, you will be shown the aside section 2  -->
+        <!-- its position will be absolute at lower resolutions -->
+        <!-- this is the label for that more button -->
+        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+        <!-- this is that more button -->
+        <!-- and this is the check box. this will always be hidden -->
+        <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+        <!-- which will invoke the aside section 2 on lower resolutions -->
+        <input type="checkbox" id="more">
+        <!-- </div> -->
+        <aside class="aside section-2">
+          <!-- similar class will be applicable to both similar artists and recently played -->
+          <div class="similar">
+            <!-- section heading, which also contains the view all button -->
+            <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">
+                        View All
+                    </div>
+                </div>
+                <!-- list is the container for the contents of similar artists -->
+                <div class="list">
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\English1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                                Mirage
+                            </h5>
+                            <p class="author-name">
+                                Else
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                4:44
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\english2.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                                Mirage
+                            </h5>
+                            <p class="author-name">
+                                Else
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                4:44
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\english3.png">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                                Mirage
+                            </h5>
+                            <p class="author-name">
+                                Else
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                                4:44
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- recently played section -->
+                <div class="similar">
+                    <!-- section headings, which also contains the view all button -->
+                    <div class="section-heading">
+                        <h1>Recently Played</h1>
+                        <div class="view-all-button">
+                            View All
+                        </div>
+                    </div>
+                    <!-- again list is a container for all the contents of recently played section -->
+                    <div class="list">
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    01
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    02
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    03
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    04
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    05
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    06
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    07
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    08
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    09
+                                </div>
+                                <div>
+                                    <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist7.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Mirage
+                                    </h5>
+                                    <p>
+                                        Else
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+          </aside>
+
+        </main>
+
+
+
+     <footer>
+       <div class="active-song-description">
+         <!-- song image -->
+         <div id="song-image">
+           <img src="C:\Users\PREETI\Downloads\bootstrap-5.0.0-beta2-dist\bootstrap-5.0.0-beta2-dist\css\MajorProject\Images\playlist10.jpg" />
+         </div>
+         <!-- song name and author -->
+         <div>
+           <div>
+             Love Ne Like You Do
+           </div>
+           <div>
+             Ellie Goulding
+           </div>
+         </div>
+         <!-- heart icon and ban icon -->
+         <div>
+           <span>
+             <i class="far fa-heart"></i>
+           </span>
+           <span>
+             <i class="fas fa-ban"></i>
+           </span>
+         </div>
+       </div>
+       <!-- these are the main player controls -->
+       <div class="player">
+         <div class="controls">
+           <div><i class="fas fa-random"></i></div>
+           <div><i class="fas fa-step-backward"></i></div>
+           <div><i class="fas fa-pause-circle"></i></div>
+           <div><i class="fas fa-step-forward"></i></div>
+           <div><i class="fas fa-redo"></i></div>
+         </div>
+         <!-- this is the slider -->
+         <div id="slider">
+           <!-- current time -->
+           <div class="time">
+             0:00
+           </div>
+           <div class="slidecontainer">
+             <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+           </div>
+           <!-- total time -->
+           <div class="time">
+             4:44
+           </div>
+         </div>
+       </div>
+       <!-- other icons including the volume slider and all -->
+       <div class="extras">
+         <div>
+           <i class="fas fa-list-ul"></i>
+         </div>
+         <div>
+           <i class="fas fa-laptop"></i>
+         </div>
+         <div>
+           <i class="fas fa-volume-up"></i>
+         </div>
+         <div class="slidecontainer" style="width:30%;">
+           <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+         </div>
+         <div>
+           <i class="fas fa-expand-alt"></i>
+         </div>
+       </div>
+     </footer>
+
+</html>
